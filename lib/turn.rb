@@ -54,5 +54,7 @@ def turn(array)
   if valid_move?(array,user_move)
     move(array,user_move)
     display_board(array)
+  else 
+    turn(array)
   end
 end
