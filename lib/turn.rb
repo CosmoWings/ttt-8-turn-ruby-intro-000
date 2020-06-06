@@ -51,7 +51,6 @@ def turn(array)
   user_input = gets.strip
   user_move = input_to_index(user_input)
   
-=begin
   if valid_move?(array,user_move)
     move(array,user_move)
     display_board(array)
