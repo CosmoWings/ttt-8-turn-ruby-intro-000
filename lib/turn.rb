@@ -49,7 +49,7 @@ end
 def turn(array)
   puts "Please enter 1-9:"
   user_input = gets.strip
-=begin  
+ 
   user_input = gets.strip
   user_move = input_to_index
   
@@ -59,5 +59,4 @@ def turn(array)
   else
     puts "invalid move, try again"
   end
-=end
 end
