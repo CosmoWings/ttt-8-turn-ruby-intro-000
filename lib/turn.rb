@@ -47,7 +47,8 @@ def valid_move?(array,index)
 end
 
 def turn(array)
-  puts "Please enter 1-9"
+  puts "Please enter 1-9:"
+  
   user_input = gets.strip
   user_move = input_to_index
   
